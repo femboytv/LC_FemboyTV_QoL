@@ -1,0 +1,30 @@
+[config]
+schemaVersion = "0.0.1"
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "./BepInEx"
+target = "./BepInEx"
+
+[package]
+namespace = "femboytv"
+name = "FemboyTV_QoL"
+versionNumber = "3.0.0"
+description = "Quality of Life mods for the best femboy modpack :3"
+websiteUrl = "https://femboy.tv"
+containsNsfwContent = false
+
+[publish]
+repository = "https://thunderstore.io"
+communities = [ "lethal-company", ]
+
+[publish.categories]
+lethal-company = [ "bepinex", "modpacks", ]
+
+[package.dependencies]
+BlueAmulet-LogNeuter = "1.0.3"
+Owen3H-IntroTweaks = "1.4.2"
