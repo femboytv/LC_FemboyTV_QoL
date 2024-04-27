@@ -13,7 +13,7 @@ target = "./BepInEx"
 [package]
 namespace = "femboytv"
 name = "FemboyTV_QoL"
-versionNumber = "3.0.2"
+versionNumber = "3.0.3"
 description = "Quality of Life mods for the best femboy modpack :3"
 websiteUrl = "https://femboy.tv"
 containsNsfwContent = false
